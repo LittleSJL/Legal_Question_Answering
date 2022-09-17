@@ -19,7 +19,7 @@ There are five folders:
 - For reader:
 	- run `python scripts/reader/prepare_file.py` to prepare the files for training and evaluating
 	- run `python scripts/reader/demo.py --train` to train the model (with different settings)
-	- run `python scripts/reader/demo.py --predict --model_dir output/reader\model.ckpt-77` to use the model to predict (with different settings)
+	- run `python scripts/reader/demo.py --predict --model_dir output/reader/model.ckpt-77` to use the model to predict (with different settings)
 	    - `model.ckpt-77` is the model you have just saved (you can use any existing models)
 	- run `python scripts/reader/evaluate.py --file output/reader/prediction_pipeline.json --refor Original` to get the evaluation results
 	    - `prediction_pipeline.json` is the prediction file you have just saved (you can use any existing prediction files)
