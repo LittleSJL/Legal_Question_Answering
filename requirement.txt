@@ -1,0 +1,11 @@
+tqdm
+regex
+numpy
+scipy
+sklearn
+tensorflow==1.14.0
+protobuf==3.19.0
+
+If you have installed all the above libraries but still can not run the program because of ModuleNotFoundError, it may because Anaconda installs them automatically for me when creating the environment.
+(Because I use 'conda activate ...' to create environment, some libraries will be installed automatically by Anaconda when creating the environment.)
+You can just continue installing these NotFound libraries until you are able to run the program.
